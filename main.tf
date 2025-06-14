@@ -88,4 +88,3 @@ resource "aws_api_gateway_stage" "prod" {
   rest_api_id   = aws_api_gateway_rest_api.file_upload_api.id
   stage_name    = "prod"
 }
-
